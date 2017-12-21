@@ -25,3 +25,11 @@ function pressIt(){
   }
 });
 }
+
+function submitIt(){
+  $(document).ready(function(pressIt){
+  });
+  $( 'form' ).submit(function( event ) {
+  alert( 'Your form is going to be submitted now.' );
+});
+}
