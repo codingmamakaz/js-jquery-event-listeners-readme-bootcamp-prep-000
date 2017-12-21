@@ -20,8 +20,8 @@ function pressIt(){
   $(document).ready(function(pressIt){
   });
   $('form').on('keydown', function(key) {
-  if(key.which == 103){
-      alert('g was pressed');
+  if(key.which == 71){
+      alert('G was pressed');
   }
 });
 }
